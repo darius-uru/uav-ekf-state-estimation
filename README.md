@@ -222,8 +222,8 @@ Full setup, troubleshooting, and step-by-step run instructions: **[User Document
 | Column | Required | Description |
 |---|---|---|
 | `t` | Yes | Time (seconds) |
-| `x_meas`, `y_meas` | Yes | Measured position |
 | `x_true`, `y_true` | No | Ground truth, enables RMSE and truth-based `R` estimation |
+| `x_meas`, `y_meas` | Yes | Measured position |
 | `psi_meas`, `omega_meas` | No | Heading/yaw-rate — **not currently supported by the estimator library** (see Limitations) |
 
 ## Current Limitations
