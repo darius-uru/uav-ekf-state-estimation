@@ -127,11 +127,17 @@ $$
 - **Gaussian noise injection** to emulate realistic GPS-like measurement uncertainty, since the raw processed positions showed little to no visible noise.
 
 ## Software Architecture
-src/
-├── EKF.py # UAV2DEKF estimator library (predict/update, Joseph-form covariance)
-├── run_uav_EKF.py # CSV-driven experiment runner: loads data, runs the filter, plots results
-└── app.py # Optional Streamlit UI for interactive parameter tuning
+```text
 
+src/
+
+├── EKF.py          # UAV2DEKF estimator library (predict/update, Joseph-form covariance)
+
+├── run_uav_EKF.py  # CSV-driven experiment runner: loads data, runs the filter, and plots results
+
+└── app.py          # Optional Streamlit UI for interactive parameter tuning
+
+```
 
 
 The estimator logic (`EKF.py`) is intentionally decoupled from plotting, file I/O, and UI concerns — mirroring how a state estimator would sit as an independent subsystem in a real flight software stack.
