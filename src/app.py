@@ -6,7 +6,7 @@ import EKF
 
 st.title("UAV EKF Tester")
 
-csv_file = st.text_input("CSV path", "simulation_log/trajectory_log.csv") # chgange to CSV that you want to implenment 
+csv_file = st.text_input("CSV path", "data/trajectory_log.csv") # chgange to CSV that you want to implenment 
 
 # Examples:
 # "EKF_expo_data/expo1.csv"
