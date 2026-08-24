@@ -165,13 +165,25 @@ On simulated trajectories, the filter visibly smooths noisy position measurement
 On the AERPAW-derived planar segment, the filter smooths the injected-noise trajectory while preserving the overall path geometry. Evaluation in this project was qualitative/visual (trajectory comparison), rather than a formal quantitative benchmark — see [Limitations](#current-limitations).
 
 ## Repository Structure
-uav-ekf-state-estimation/
-├── src/ # EKF library, driver script, optional UI
-├── notebooks/ # Development notebook (simulation, EKF derivation, AERPAW preprocessing)
-├── data/sample/ # Small sample CSV for testing (full AERPAW dataset not included)
-├── results/figures/ # Exported result plots
-└── docs/ # Design report, proposal, and user documentation PDFs
+```text
 
+uav-ekf-state-estimation/
+
+├── src/              # EKF library, driver script, and optional UI
+
+├── notebooks/        # Simulation, EKF development, and AERPAW preprocessing
+
+├── data/
+
+│   └── sample/       # Small sample CSV for testing; full AERPAW dataset not included
+
+├── results/
+
+│   └── figures/      # Exported result plots
+
+└── docs/             # Design report, project proposal, and user documentation
+
+```
 
 ## Installation
 
