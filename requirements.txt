@@ -1,0 +1,6 @@
+numpy
+pandas
+matplotlib
+
+# Optional — only required to run the interactive UI (src/app.py)
+streamlit
