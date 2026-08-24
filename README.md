@@ -150,9 +150,9 @@ The estimator logic (`EKF.py`) is intentionally decoupled from plotting, file I/
 
 **Simulation (ground truth available):**
 
-| Simulation: Measured vs. EKF Estimate | Simulation: Truth vs. EKF Estimate |
-|---|---|
-| ![Simulation measured vs filtered](results/figures/sim_measured_vs_filtered.png) | ![Simulation truth vs filtered](results/figures/sim_truth_vs_filtered.png) |
+| Simulation: Measured vs. Truth vs. EKF Estimate |
+|---|
+| ![Simulation measured vs filtered](results/figures/sim_truth_vs_meas.png) |
 
 On simulated trajectories, the filter visibly smooths noisy position measurements while tracking the known ground-truth path, and produces velocity estimates that are not directly measured.
 
