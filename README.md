@@ -158,9 +158,9 @@ On simulated trajectories, the filter visibly smooths noisy position measurement
 
 **AERPAW real flight data:**
 
-| AERPAW Data in Local Frame | AERPAW: Measured vs. EKF Estimate |
+| Raw AERPAW Data  | AERPAW: Measured(with added noise) vs. EKF Estimate |
 |---|---|
-| ![AERPAW local frame trajectory](results/figures/aerpaw_local_frame_trajectory.png) | ![AERPAW measured vs filtered](results/figures/aerpaw_measured_vs_filtered.png) |
+| ![AERPAW local frame trajectory](results/figures/aerpaw_xy_raw.png) | ![AERPAW measured vs filtered](results/figures/aerpaw_meas_vs_ekf.png.png) |
 
 On the AERPAW-derived planar segment, the filter smooths the injected-noise trajectory while preserving the overall path geometry. Evaluation in this project was qualitative/visual (trajectory comparison), rather than a formal quantitative benchmark — see [Limitations](#current-limitations).
 
