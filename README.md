@@ -254,6 +254,7 @@ Full setup, troubleshooting, and step-by-step run instructions: **[User Document
 ## Author
 
 **Darius Gichuru**
+
 ENAE380: Flight Software Systems, Fall 2025
 
 Undergraduate Aerospace Engineering & Physics Student
