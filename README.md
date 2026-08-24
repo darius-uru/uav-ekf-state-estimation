@@ -206,7 +206,7 @@ cd src
 python run_uav_EKF.py
 ```
 
-Edit the `CSV_FILE` path near the top of `run_uav_EKF.py` to point at your dataset (a small sample is provided in `data/sample/`).
+Edit the `CSV_FILE` path near the top of `run_uav_EKF.py` to point at your dataset (a small sample is provided in `data/`).
 
 Optional interactive UI:
 
