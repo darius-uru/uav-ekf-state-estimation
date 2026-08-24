@@ -188,7 +188,7 @@ uav-ekf-state-estimation/
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/uav-ekf-state-estimation.git
+git clone https://github.com/darius-uru/uav-ekf-state-estimation.git
 cd uav-ekf-state-estimation
 
 python -m venv venv
