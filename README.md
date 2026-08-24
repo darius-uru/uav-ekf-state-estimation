@@ -254,5 +254,7 @@ Full setup, troubleshooting, and step-by-step run instructions: **[User Document
 ## Author
 
 **Darius Gichuru**
-Dual-Degree Program, Applied Physics & Aerospace Engineering, University of Maryland
 ENAE380: Flight Software Systems, Fall 2025
+Undergraduate Aerospace Engineering & Physics Student
+University of Maryland, College Park
+
